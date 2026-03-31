@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Tuning fork icon simplified -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,28 L50,55 M58,28 L58,55 M47,55 L61,55 L61,80 L47,80 Z M52,55 L52,28 C52,22 56,22 56,28 L56,55"
+        android:strokeWidth="3"
+        android:strokeColor="#FFD700" />
+</vector>

@@ -1,0 +1,49 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/build
+
+# AI 上下文与本地过程文件
+/AgentContext/
+/Memory/
+/PLANNING-*.md
+
+# 本地产物与分发包
+*.apk
+*.zip
+
+# Kotlin/Gradle 本地缓存
+/.kotlin/
+
+# 根目录下的临时重复副本，真实源码位于 app/src/main/
+/.gitkeep
+/AndroidManifest.xml
+/AudioInput.kt
+/Color.kt
+/Instruments.kt
+/MainActivity.kt
+/NoteMapper.kt
+/Theme.kt
+/TunerScreen.kt
+/TunerViewModel.kt
+/TuningMeter.kt
+/Type.kt
+/YinPitchDetector.kt
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+/ic_launcher.xml
+/ic_launcher_background.xml
+/ic_launcher_foreground.xml
+/ic_launcher_round.xml
+/proguard-rules.pro
+/strings.xml
+/themes.xml
+/app-debug.apk
+/app.zip
