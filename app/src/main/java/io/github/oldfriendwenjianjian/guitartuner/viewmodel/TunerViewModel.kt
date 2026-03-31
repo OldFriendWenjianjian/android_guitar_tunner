@@ -1,4 +1,4 @@
-package com.example.guitartuner.viewmodel
+package io.github.oldfriendwenjianjian.guitartuner.viewmodel
 
 import android.Manifest
 import android.app.Application
@@ -6,13 +6,13 @@ import android.util.Log
 import androidx.annotation.RequiresPermission
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.guitartuner.audio.AudioInput
-import com.example.guitartuner.music.Instrument
-import com.example.guitartuner.music.InstrumentPresets
-import com.example.guitartuner.music.NoteMapResult
-import com.example.guitartuner.music.NoteMapper
-import com.example.guitartuner.music.TuningMode
-import com.example.guitartuner.pitch.YinPitchDetector
+import io.github.oldfriendwenjianjian.guitartuner.audio.AudioInput
+import io.github.oldfriendwenjianjian.guitartuner.music.Instrument
+import io.github.oldfriendwenjianjian.guitartuner.music.InstrumentPresets
+import io.github.oldfriendwenjianjian.guitartuner.music.NoteMapResult
+import io.github.oldfriendwenjianjian.guitartuner.music.NoteMapper
+import io.github.oldfriendwenjianjian.guitartuner.music.TuningMode
+import io.github.oldfriendwenjianjian.guitartuner.pitch.YinPitchDetector
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

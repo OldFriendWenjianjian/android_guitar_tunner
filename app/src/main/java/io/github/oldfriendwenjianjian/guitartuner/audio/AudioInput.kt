@@ -1,4 +1,4 @@
-package com.example.guitartuner.audio
+package io.github.oldfriendwenjianjian.guitartuner.audio
 
 import android.Manifest
 import android.media.AudioFormat

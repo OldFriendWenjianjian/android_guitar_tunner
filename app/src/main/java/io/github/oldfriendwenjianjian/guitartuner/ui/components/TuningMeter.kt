@@ -1,4 +1,4 @@
-package com.example.guitartuner.ui.components
+package io.github.oldfriendwenjianjian.guitartuner.ui.components
 
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.Spring
@@ -24,13 +24,13 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.guitartuner.ui.theme.AccentGold
-import com.example.guitartuner.ui.theme.Blue500
-import com.example.guitartuner.ui.theme.DarkBackground
-import com.example.guitartuner.ui.theme.DarkSurface
-import com.example.guitartuner.ui.theme.Green500
-import com.example.guitartuner.ui.theme.Red500
-import com.example.guitartuner.ui.theme.TextSecondary
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.AccentGold
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Blue500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.DarkBackground
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.DarkSurface
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Green500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Red500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.TextSecondary
 import kotlin.math.PI
 import kotlin.math.abs
 import kotlin.math.cos

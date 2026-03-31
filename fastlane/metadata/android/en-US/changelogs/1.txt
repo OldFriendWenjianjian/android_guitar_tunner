@@ -1,0 +1,6 @@
+Initial public release.
+
+- Real-time pitch detection with the YIN algorithm
+- Standard and chromatic tuning modes
+- Guitar, ukulele, and bass presets
+- Compose-based tuner interface and visual cent meter

@@ -1,0 +1,11 @@
+Guitar Tuner is a lightweight Android tuner built with Kotlin and Jetpack Compose. It listens to the microphone in real time, detects pitch with the YIN algorithm, and helps players quickly tune strings with a clear visual meter.
+
+The app currently supports guitar, ukulele, and bass. You can choose between standard tuning mode for guided string-by-string tuning and chromatic mode for detecting the nearest musical note across a wider range.
+
+Highlights:
+
+- Real-time pitch detection from microphone input
+- Standard and chromatic tuning modes
+- Support for guitar, ukulele, and bass
+- Visual cent meter with in-tune / sharp / flat feedback
+- Signal smoothing for more stable note display

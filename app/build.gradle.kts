@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.guitartuner"
+    namespace = "io.github.oldfriendwenjianjian.guitartuner"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.guitartuner"
+        applicationId = "io.github.oldfriendwenjianjian.guitartuner"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

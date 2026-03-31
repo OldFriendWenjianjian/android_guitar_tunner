@@ -1,4 +1,4 @@
-package com.example.guitartuner.ui.theme
+package io.github.oldfriendwenjianjian.guitartuner.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.example.guitartuner.ui.theme
+package io.github.oldfriendwenjianjian.guitartuner.ui.theme
 
 import android.app.Activity
 import androidx.compose.material3.MaterialTheme

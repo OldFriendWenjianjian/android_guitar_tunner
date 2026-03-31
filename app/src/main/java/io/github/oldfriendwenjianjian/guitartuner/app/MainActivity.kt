@@ -1,4 +1,4 @@
-package com.example.guitartuner.app
+package io.github.oldfriendwenjianjian.guitartuner.app
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -35,12 +35,12 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.repeatOnLifecycle
-import com.example.guitartuner.ui.screens.TunerScreen
-import com.example.guitartuner.ui.theme.DarkBackground
-import com.example.guitartuner.ui.theme.GuitarTunerTheme
-import com.example.guitartuner.ui.theme.TextPrimary
-import com.example.guitartuner.ui.theme.TextSecondary
-import com.example.guitartuner.viewmodel.TunerViewModel
+import io.github.oldfriendwenjianjian.guitartuner.ui.screens.TunerScreen
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.DarkBackground
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.GuitarTunerTheme
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.TextPrimary
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.TextSecondary
+import io.github.oldfriendwenjianjian.guitartuner.viewmodel.TunerViewModel
 
 /**
  * 吉他调音器主 Activity

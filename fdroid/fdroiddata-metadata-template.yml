@@ -1,0 +1,38 @@
+# Draft metadata for submitting this app to the official F-Droid fdroiddata repository.
+# Blocker: replace the placeholder license with the actual FLOSS license chosen for this project
+# before opening a Submission Queue issue or merge request.
+
+Categories:
+  - Multimedia
+License: TODO-SELECT-A-FLOSS-LICENSE
+AuthorName: Wenjian
+AuthorWebSite: https://github.com/OldFriendWenjianjian
+WebSite: https://github.com/OldFriendWenjianjian/android_guitar_tunner
+SourceCode: https://github.com/OldFriendWenjianjian/android_guitar_tunner
+IssueTracker: https://github.com/OldFriendWenjianjian/android_guitar_tunner/issues
+Changelog: https://github.com/OldFriendWenjianjian/android_guitar_tunner/releases
+AutoName: Guitar Tuner
+Summary: Real-time tuner for guitar, ukulele, and bass
+Description: |-
+    Guitar Tuner is a lightweight tuner built with Kotlin and Jetpack Compose.
+    It listens to microphone input in real time and uses the YIN algorithm to
+    detect pitch with a visual cent meter.
+
+    Features:
+
+    * Standard and chromatic tuning modes
+    * Presets for guitar, ukulele, and bass
+    * Real-time frequency and note display
+    * Visual in-tune / sharp / flat feedback
+    * Signal smoothing for a more stable reading
+
+RepoType: git
+Repo: https://github.com/OldFriendWenjianjian/android_guitar_tunner.git
+
+Builds:
+  - versionName: "1.0"
+    versionCode: 1
+    commit: v1.0
+    subdir: .
+    gradle:
+      - yes

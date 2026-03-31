@@ -1,4 +1,4 @@
-package com.example.guitartuner.ui.screens
+package io.github.oldfriendwenjianjian.guitartuner.ui.screens
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.animateColorAsState
@@ -39,21 +39,21 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.guitartuner.music.Instrument
-import com.example.guitartuner.music.InstrumentPresets
-import com.example.guitartuner.music.TuningMode
-import com.example.guitartuner.ui.components.TuningMeter
-import com.example.guitartuner.ui.theme.AccentGold
-import com.example.guitartuner.ui.theme.Blue500
-import com.example.guitartuner.ui.theme.DarkBackground
-import com.example.guitartuner.ui.theme.DarkSurface
-import com.example.guitartuner.ui.theme.Green500
-import com.example.guitartuner.ui.theme.GuitarTunerTheme
-import com.example.guitartuner.ui.theme.Red500
-import com.example.guitartuner.ui.theme.TextPrimary
-import com.example.guitartuner.ui.theme.TextSecondary
-import com.example.guitartuner.viewmodel.TunerUiState
-import com.example.guitartuner.viewmodel.TuningDirection
+import io.github.oldfriendwenjianjian.guitartuner.music.Instrument
+import io.github.oldfriendwenjianjian.guitartuner.music.InstrumentPresets
+import io.github.oldfriendwenjianjian.guitartuner.music.TuningMode
+import io.github.oldfriendwenjianjian.guitartuner.ui.components.TuningMeter
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.AccentGold
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Blue500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.DarkBackground
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.DarkSurface
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Green500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.GuitarTunerTheme
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.Red500
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.TextPrimary
+import io.github.oldfriendwenjianjian.guitartuner.ui.theme.TextSecondary
+import io.github.oldfriendwenjianjian.guitartuner.viewmodel.TunerUiState
+import io.github.oldfriendwenjianjian.guitartuner.viewmodel.TuningDirection
 
 // ============================================================
 // 公开 API
